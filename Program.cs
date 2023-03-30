@@ -210,6 +210,8 @@ class Program
         User login = DataUser.users.SingleOrDefault(x => x.UserName == username && x.Password == password);
         if (login != null)
         {
+            Console.WriteLine("Login Berhasil");
+        }else
         {
             Console.WriteLine("Login Gagal");
         }
