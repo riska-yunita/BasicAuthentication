@@ -200,10 +200,7 @@ class Program
 
         Console.WriteLine("==LOGIN==");
         Console.Write("USERNAME :");
-        string username
-            Console.WriteLine("Login Berhasil");
-        }
-        else = Console.ReadLine();
+        string username = Console.ReadLine();
         Console.Write("PASSWORD :");
         string password = Console.ReadLine();
 
@@ -211,7 +208,8 @@ class Program
         if (login != null)
         {
             Console.WriteLine("Login Berhasil");
-        }else
+        }
+        else
         {
             Console.WriteLine("Login Gagal");
         }
